@@ -1,0 +1,7 @@
+mkdir conflict-demo
+cd conflict-demo
+git init
+echo "This is some content in example.txt" > example.txt
+git add example.txt
+git commit -m "Initial commit"
+
